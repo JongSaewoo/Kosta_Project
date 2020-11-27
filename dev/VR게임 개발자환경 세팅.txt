@@ -1,0 +1,10 @@
+oculus integration 어쎗설치 -> oculus 탭 - platform, avatar => oculus app id, vr = 3265999293417466
+
+프로젝트 세팅 - time - fixed timestep 1/90으로 설정 == custom hand의 움직임을 부드럽게해줌
+
+플레이어 콜라이더보다 작은 곳을 플레이어가 지나가야 할때 -> udemy 13강의 5분:00초에서나옴
+	OvrPlayerController에 character camera constraint.cs 컴포넌트 add
+
+create - 3d - Ragdoll => 입체적 collider를 만들어줌 ( meshRenderer하고 비슷)
+
+ ( https://www.patreon.com/posts/making-vr-zombie-36584781 ) 좀비만들기

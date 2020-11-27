@@ -1,0 +1,36 @@
+1. 유니티 내 설정 및 오큘러스 정식 홈페이지에서 개발자 등록
+- 유니티 player setting-
+com.ironheadgames.firstoculusquestproject
+oculus app id, vr = 3265999293417466
+- 정식 홈페이지
+dashboard.oculus.com ...
+https://www.oculus.com/experiences/quest/
+
++ ADB 드라이버 설치(사이드퀘스트) = 안드로이드 기반의 스마트 디바이스의 루팅에 사용됨
+	즉, 스마트 디바이스와 사용자간의 브릿지이다.
+	안드로이드는 원래 플렛폼레벨에서만 사용 가능하고 수정뿐만 아니라 접근조차막혀있음
+	하지만 루팅을 통해 루트권한을 얻고 내부적으로 자유롭게 수정 및 접근이 가능하다
+	(루트는 일반사용자와 다르게 수퍼바이저 혹은 수퍼 유저라고 불린다.)
+
++ SDK 소프트웨어 디벨롭 킷트 = API와 똑같음
+
++ API 앱 프로그래밍 인터페이스 =>
+	 응용프로그램과 디바이스(운영체제)의 브릿지로
+	 os가 응용프로그램을 위해 제공하는 함수의 집합.
+			
+
+2. side quest 앱 이용
+
+// SGSaber 강의 app id : 3015958335121915
+// 나의 facebook app id : 851979472274500
+// 나의 gamepot project(프젝이름 : VR_SGSaber) id : fd021c9f-ae9f-40e7-9bde-8bc9acba6376
+// 나의 gamepot_api_url : https://dashboard.gamepot.ntruss.com
+// 나의 fb_login_protocol_scheme : 
+
+		ㅁresValue "string", "gamepot_project_id", "" 									   // required
+ 		ㅁresValue "string", "gamepot_api_url", "" 										   	 // required (공백값으로 유지해주세요.)
+   		resValue "string", "gamepot_store", "google" 									 // required
+   		resValue "string", "gamepot_app_title","@string/app_name" 			  // required (fcm)
+   		resValue "string", "gamepot_push_default_channel","Default" 	 	  // required (fcm)
+   		ㅁresValue "string", "facebook_app_id", "" 								 			 // optional (facebook)
+ 		resValue "string", "fb_login_protocol_scheme", "" 
