@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{101A4350-8D5C-5BEB-BC40-3F05CB561C36}</ProjectGuid>
+    <ProjectGuid>{74257A88-8B81-E3A9-1351-581ABAC2C26F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -289,7 +289,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -646,107 +646,107 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{44F6C437-AC15-80A5-22B5-6F321EEA9B17}</Project>
+      <Project>{3FCB0818-67D7-7A41-A92C-8DF28CBC2B02}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{3D9523CC-58CD-5AF3-8777-3613BEF2394D}</Project>
+      <Project>{FA154F9C-A6AD-5D6F-C3A4-6110F0189EEA}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{6149624E-2BFA-C21B-387A-5E1C2489472E}</Project>
+      <Project>{DCCDC4BC-623E-001A-0F86-D59CF6D85138}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{0CDF8B59-BFD5-C53C-DC81-E9955E7645BA}</Project>
+      <Project>{578A1BA5-CC29-9481-27CE-40CF31E8FC92}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{4A111404-5C4B-C2E1-A394-33F1777D55C8}</Project>
+      <Project>{CE11EF7C-F533-16E4-0899-352EF999B7A4}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{83490543-203D-4191-6109-C5504238C11D}</Project>
+      <Project>{5AF7682C-ADE8-AD17-67F8-DBD4EE01471A}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>

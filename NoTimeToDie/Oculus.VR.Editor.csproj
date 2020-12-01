@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6149624E-2BFA-C21B-387A-5E1C2489472E}</ProjectGuid>
+    <ProjectGuid>{DCCDC4BC-623E-001A-0F86-D59CF6D85138}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR.Editor</AssemblyName>
@@ -289,7 +289,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -646,21 +646,21 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/JongWooPark/Desktop/KostaPJ/testPJ/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{4A111404-5C4B-C2E1-A394-33F1777D55C8}</Project>
+      <Project>{CE11EF7C-F533-16E4-0899-352EF999B7A4}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
