@@ -61,12 +61,12 @@ public class Web : MonoBehaviour
         }
     }
 
-    public IEnumerator Login(string user_name, string user_password)
+    public IEnumerator Login(string user_id, string user_password)
     {
         WWWForm form = new WWWForm();
         // Login.php에서 $loginUser와 $loginPass에 
         // Post한 값을 Get : 'loginUser' 
-        form.AddField("loginUser", user_name);
+        form.AddField("loginUser", user_id);
         form.AddField("loginPass", user_password);
 
         using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityStartLogin/Login.php", form))
@@ -86,12 +86,14 @@ public class Web : MonoBehaviour
         }
     }
 
-    IEnumerator ResisterUser(string user_name, string user_password)
+    public IEnumerator ResisterUser(string user_id, string user_name, string user_password, string user_confirmPass)
     {
         WWWForm form = new WWWForm();
 
-        form.AddField("loginUser", user_name);
+        form.AddField("loginUser", user_id);
+        form.AddField("loginName", user_name);
         form.AddField("loginPass", user_password);
+        form.AddField("confirmPass", user_confirmPass);
 
         using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityStartLogin/RegisterUser.php", form))
         {

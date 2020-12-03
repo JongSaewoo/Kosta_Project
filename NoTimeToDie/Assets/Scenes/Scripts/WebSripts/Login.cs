@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Login : MonoBehaviour
 {
-    public InputField UsernameInput;
+    public InputField UserIdInput;
     public InputField PasswordInput;
     public Button LoginButton;
 
@@ -14,7 +14,7 @@ public class Login : MonoBehaviour
     {
         LoginButton.onClick.AddListener(() =>
         {
-            StartCoroutine(Main.Instance.Web.Login(UsernameInput.text, PasswordInput.text));
+            StartCoroutine(Main.Instance.Web.Login(UserIdInput.text, PasswordInput.text));
         });
     }
 }
