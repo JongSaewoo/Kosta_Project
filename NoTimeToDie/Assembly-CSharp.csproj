@@ -219,6 +219,8 @@
     <Compile Include="Assets\Scenes\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scenes\Scripts\Move.cs" />
     <Compile Include="Assets\Scenes\Scripts\SimpleShoot.cs" />
+    <Compile Include="Assets\Scenes\Scripts\WebSripts\Login.cs" />
+    <Compile Include="Assets\Scenes\Scripts\WebSripts\Main.cs" />
     <Compile Include="Assets\Scenes\Scripts\WebSripts\Web.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

@@ -14,7 +14,7 @@ public class Web : MonoBehaviour
         // user_name, user_password 입력
         //StartCoroutine(Login("JongWoo", "1234"));
 
-        StartCoroutine(ResisterUser("SeongMin", "123456"));
+        //StartCoroutine(ResisterUser("SeongMin", "123456"));
     }
 
     // GetDate 데이터 파일
@@ -61,7 +61,7 @@ public class Web : MonoBehaviour
         }
     }
 
-    IEnumerator Login(string user_name, string user_password)
+    public IEnumerator Login(string user_name, string user_password)
     {
         WWWForm form = new WWWForm();
         // Login.php에서 $loginUser와 $loginPass에 
