@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/KakaoLogin.unity
-    guid: 397c32c57b384444b9444e623a6bfd6f
+    path: Assets/Scenes/StartLoginUI.unity
+    guid: 075d59cc5a14db7479f65a5f5d9e2490
+  - enabled: 1
+    path: Assets/Scenes/007NoTimeToDie.unity
+    guid: 409eb35c3da282e44bcd0a17f5aa3240
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 949ce4906e4bb284b9d6e93ed9356767,
       type: 2}
