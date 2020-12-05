@@ -2,9 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class Web : MonoBehaviour
 {
+
+    public GameObject LoginPanel;
+    public GameObject RegisterPanel;
+    public GameObject Welcom_settingPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +52,7 @@ public class Web : MonoBehaviour
         {
             yield return www.Send();
 
-            // 에러 페이지
+            // 네트워킹 에러 처리
             if (www.isNetworkError || www.isHttpError)
             {
                 Debug.Log(www.error);
@@ -73,13 +79,17 @@ public class Web : MonoBehaviour
         {
             yield return www.SendWebRequest();
 
-            // 에러 페이지
+            // 네트워킹 에러 처리
             if (www.isNetworkError || www.isHttpError)
             {
                 Debug.Log(www.error);
             }
             else
             {
+                // Login.php에서 오류 없이 Login 성공했을 시
+                LoginPanel.SetActive(false);
+                Welcom_settingPanel.SetActive(true);
+
                 // Login.php에서 출력한 데이터 값
                 Debug.Log(www.downloadHandler.text);
             }
@@ -99,14 +109,20 @@ public class Web : MonoBehaviour
         {
             yield return www.SendWebRequest();
 
-            // 에러 페이지
+            // 사용자 입력 에러 처리 : Register
+
+            // 네트워킹 에러 처리
             if (www.isNetworkError || www.isHttpError)
             {
                 Debug.Log(www.error);
             }
             else
             {
-                // Login.php에서 출력한 데이터 값
+                // Register.php에서 오류 없이 Submit 성공했을 시
+                LoginPanel.SetActive(true);
+                RegisterPanel.SetActive(false);
+
+                // Register.php에서 출력한 데이터 값
                 Debug.Log(www.downloadHandler.text);
             }
         }
