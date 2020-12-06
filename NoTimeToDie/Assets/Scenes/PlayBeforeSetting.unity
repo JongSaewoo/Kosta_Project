@@ -1328,10 +1328,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f35ed5893dd1eca40bc2ceda95a928d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UserIdInput: {fileID: 280164513}
-  UsernameInput: {fileID: 669735897}
+  User_idInput: {fileID: 0}
+  User_nameInput: {fileID: 0}
   PasswordInput: {fileID: 1943022222}
-  ConfirmPassInput: {fileID: 662549578}
+  Confirm_passInput: {fileID: 0}
   SubmitButton: {fileID: 1380595663}
   BackButton: {fileID: 65804240}
 --- !u!114 &455472266
@@ -1990,9 +1990,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d5b566efb783c54eaac864e1faebe23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UserIdInput: {fileID: 1321115912}
+  User_idInput: {fileID: 0}
   PasswordInput: {fileID: 52542274}
-  LoginButton: {fileID: 1179229490}
+  Login_button: {fileID: 0}
+  Register_button: {fileID: 0}
+  RegisterPanel: {fileID: 0}
+  LoginPanel: {fileID: 0}
 --- !u!114 &768627260
 MonoBehaviour:
   m_ObjectHideFlags: 0

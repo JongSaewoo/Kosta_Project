@@ -224,6 +224,7 @@
     <Compile Include="Assets\Scenes\Scripts\WebSripts\Register.cs" />
     <Compile Include="Assets\Scenes\Scripts\WebSripts\Web.cs" />
     <Compile Include="Assets\Scenes\Scripts\WebSripts\WelcomSetting.cs" />
+    <Compile Include="Assets\Scenes\UnityLoginLogoutRegister.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
