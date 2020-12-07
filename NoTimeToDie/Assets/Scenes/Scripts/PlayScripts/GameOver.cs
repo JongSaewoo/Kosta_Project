@@ -10,7 +10,7 @@ public class GameOver : MonoBehaviour
         if(other.CompareTag("bullet_head"))
         // bullet_head Tag를 적용했을 경우 정의
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadSceneAsync("AccountLogout");
             // 0번째 씬을 불러온다.
         }
     }
