@@ -15,10 +15,13 @@ public class UnityLoginLogoutRegister : MonoBehaviour
     public InputField accountPassword;
     public InputField accountPasswordCheck;
     public Text info;
+    [Space]
+    public GameObject PlayButton;
+    public GameObject ReplayButton;
 
     private string currentUsername; // 키 값을 담을 변수
     private string ukey = "";       // 키 값 초기화
-
+    
     void Start()
     {
         currentUsername = "";
@@ -44,7 +47,7 @@ public class UnityLoginLogoutRegister : MonoBehaviour
         }
     }
 
-    // LoginButton : Login -> Game
+    // LoginButton : Login -> Logout
     public void AccountLogin()
     {
         string uID = accountUserID.text;
@@ -64,7 +67,7 @@ public class UnityLoginLogoutRegister : MonoBehaviour
     {
         currentUsername = "";
         PlayerPrefs.SetString(ukey, currentUsername);   // SetString : save -> ukey에 currentUsername=""을 넣음으로써 ukey값을 초기화
-        info.text = "성공적으로 로그아웃하였습니다.";
+        SceneManager.LoadSceneAsync("AccountLogin");
     }
 
     // RegisterButton : Register -> Login
@@ -77,6 +80,12 @@ public class UnityLoginLogoutRegister : MonoBehaviour
         string CKpWord = accountPasswordCheck.text;
         StartCoroutine(RegisterNewAccount(uID, uName, uEmail, pWord, CKpWord));
         SceneManager.LoadSceneAsync("AccountLogin");
+    }
+
+    // Play,Replay Button : Logout -> Game
+    public void GamePlay()
+    {
+        SceneManager.LoadSceneAsync("007NoTimeToDie");
     }
 
     // Login Session
@@ -102,7 +111,7 @@ public class UnityLoginLogoutRegister : MonoBehaviour
                 {
                     Debug.Log("Game Loading ...");
                     PlayerPrefs.SetString(ukey, uID);
-                    SceneManager.LoadSceneAsync("007NoTimeToDie");
+                    SceneManager.LoadSceneAsync("AccountLogout");
                 }
                 else
                 {
