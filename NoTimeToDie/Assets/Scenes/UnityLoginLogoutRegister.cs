@@ -79,7 +79,6 @@ public class UnityLoginLogoutRegister : MonoBehaviour
         string pWord = accountPassword.text;
         string CKpWord = accountPasswordCheck.text;
         StartCoroutine(RegisterNewAccount(uID, uName, uEmail, pWord, CKpWord));
-        SceneManager.LoadSceneAsync("AccountLogin");
     }
 
     // Play,Replay Button : Logout -> Game
@@ -105,18 +104,15 @@ public class UnityLoginLogoutRegister : MonoBehaviour
             }
             else
             {
-                string responseText = www.downloadHandler.text;
-
-                if (responseText == "1")   
+                if (www.downloadHandler.text == "1")   
                 {
-                    Debug.Log("Game Loading ...");
                     PlayerPrefs.SetString(ukey, uID);
                     SceneManager.LoadSceneAsync("AccountLogout");
                 }
                 else
                 {
-                    Debug.Log(responseText);
-                    info.text = responseText;
+                    Debug.Log(www.downloadHandler.text);
+                    info.text = www.downloadHandler.text;
                 }
             }
         }
@@ -144,10 +140,16 @@ public class UnityLoginLogoutRegister : MonoBehaviour
             }
             else
             {
-                Debug.Log(responseText);
-                info.text = responseText;
-
-                SceneManager.LoadSceneAsync("AccountLogin");
+                if (www.downloadHandler.text == "1")
+                {
+                    PlayerPrefs.SetString(ukey, uID);
+                    SceneManager.LoadSceneAsync("AccountLogin");
+                }
+                else
+                {
+                    Debug.Log(www.downloadHandler.text);
+                    info.text = www.downloadHandler.text;
+                }
             }
         }
     }

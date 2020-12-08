@@ -1,4 +1,0 @@
-#Sat Dec 05 20:28:24 KST 2020
-base.0=C\:\\Users\\JongWooPark\\Documents\\GitHub\\Kosta_Project\\NoTimeToDie\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
