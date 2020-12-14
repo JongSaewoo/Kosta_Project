@@ -681,6 +681,9 @@
     <Reference Include="Unity.XR.Oculus">
       <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.MockHMD">
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.XR.MockHMD.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -719,6 +722,9 @@
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.MockHMD.Editor">
+      <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/Unity.XR.MockHMD.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/JongWooPark/Documents/GitHub/Kosta_Project/NoTimeToDie/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
