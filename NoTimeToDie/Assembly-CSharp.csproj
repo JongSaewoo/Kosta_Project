@@ -276,6 +276,8 @@
     <Compile Include="Assets\VRKeys\Scripts\LetterKey.cs" />
     <Compile Include="Assets\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\VRKeys\Scripts\Placement.cs" />
+    <Compile Include="Assets\VRKeys\Scripts\Platforms\OculusController.cs" />
+    <Compile Include="Assets\VRKeys\Scripts\Platforms\OpenVRController.cs" />
     <Compile Include="Assets\VRKeys\Scripts\ShiftKey.cs" />
     <Compile Include="Assets\VRKeys\Scripts\SpaceKey.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
