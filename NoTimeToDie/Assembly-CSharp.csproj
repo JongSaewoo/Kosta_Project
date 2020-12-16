@@ -216,8 +216,9 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\Scenes\Email.cs" />
-    <Compile Include="Assets\Scenes\Scripts\KeyScripts\KeyFeedBack.cs" />
-    <Compile Include="Assets\Scenes\Scripts\KeyScripts\KeySoundHandler.cs" />
+    <Compile Include="Assets\Scenes\Scripts\KeyAndStickScripts\KeyDetector.cs" />
+    <Compile Include="Assets\Scenes\Scripts\KeyAndStickScripts\KeyFeedBack.cs" />
+    <Compile Include="Assets\Scenes\Scripts\KeyAndStickScripts\KeySoundHandler.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlayScripts\Enemy.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlayScripts\GameOver.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlayScripts\Move.cs" />
