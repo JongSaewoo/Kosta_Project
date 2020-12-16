@@ -6,6 +6,7 @@ TagManager:
   tags:
   - bullet_head
   - KeySoundHandler
+  - PlayerTextOutput
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - 
   - 
   - 
-  - Grabbable
+  - DistanceGrabbable
   - 
   - 
   - 
