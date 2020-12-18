@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/AccountLogin.unity
+- path: Assets/Scenes/007NoTimeToDie.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

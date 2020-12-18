@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 29
-        applicationId 'com.DefaultCompany.kakao'
+        applicationId 'com.ironheadgames.firstoculusquestproject'
         ndk {
             abiFilters 'armeabi-v7a'
         }

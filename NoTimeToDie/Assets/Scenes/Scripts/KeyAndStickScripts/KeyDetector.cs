@@ -13,6 +13,7 @@ public class KeyDetector : MonoBehaviour
         playerTextOutput = GameObject.FindGameObjectWithTag("PlayerTextOutput").GetComponentInChildren<TextMeshPro>();
     }
 
+    // Collider 발생시
     private void OntriggerEnter(Collider other)
     {
         var key = other.GetComponentInChildren<TextMeshPro>();
